@@ -30,7 +30,7 @@ body {
 }
 
 .hero {
-    background: url('background.png') no-repeat center ;
+    background: url('background.png') no-repeat center;
     height: 100vh;
     display: flex;
     justify-content: center;
