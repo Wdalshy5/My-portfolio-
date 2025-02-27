@@ -3,97 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Full Stack Developer Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Mohamed Abdallah - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </head>
 <body>
-    <!-- Header -->
-    <header data-aos="fade-down">
-        <nav class="navbar">
-            <div class="logo">Wd Alshykh</div>
-            <ul class="nav-links">
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <header>
+        <div class="container">
+            <h1>Mohamed Abdallah</h1>
+            <p>Junior Web Developer | AI Enthusiast | Medical Student</p>
+            <button id="theme-toggle">Toggle Dark/Light Mode</button>
+        </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero" data-aos="fade-up">
-        <div class="hero-content">
-             <a href="#about" class="btn animate__animated animate__pulse">Learn More</a>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a junior web developer passionate about AI and medical technology. I build intelligent web solutions that enhance learning and accessibility.</p>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about" data-aos="fade-right">
-        <h2>About Me</h2>
-        <p>
-            As a full-stack developer, I have expertise in building scalable web applications using Python frameworks like Flask and Django. 
-            I also excel in frontend development with HTML, CSS, and JavaScript (jQuery). My goal is to create user-friendly and efficient solutions.
-        </p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects" data-aos="fade-left">
-        <h2>My Projects</h2>
-        <div class="project-item" data-aos="zoom-in">
-            <img src="project1.png" alt="Project 1">
-            <h3>Project Title 1</h3>
-            <p>Built using Flask and React. This project allows users to...</p>
-            <a href="#" class="btn">View Project</a>
-        </div>
-        <div class="project-item" data-aos="zoom-in">
-            <img src="project2.png" alt="Project 2">
-            <h3>Project Title 2</h3>
-            <p>A Django-based e-commerce platform with...</p>
-            <a href="#" class="btn">View Project</a>
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Flask, Django, Python</li>
+                <li>UI/UX Design (Figma, Wireframing)</li>
+                <li>Machine Learning & NLP</li>
+            </ul>
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills" data-aos="fade-up">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python (Flask, Django)</li>
-            <li>HTML/CSS</li>
-            <li>JavaScript (jQuery)</li>
-            <li>SQL</li>
-            <li>REST APIs</li>
-        </ul>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact" data-aos="flip-up">
-        <h2>Contact Me</h2>
-        <form id="contact-form">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea id="message" placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn">Send Message</button>
-        </form>
-    </section>
-
-    <!-- Footer -->
-    <footer data-aos="fade-in">
-        <p>&copy; 2023 Wd Alshykh . All rights reserved.</p>
-        <div class="social-links">
-            <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
-            <a href="#"><img src="github.png" alt="GitHub"></a>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Medical MCQs Web App</h3>
+                <p>A web app helping medical students practice MCQs with NLP-based search.</p>
+            </div>
+            <div class="project">
+                <h3>AI-Powered Chatbot</h3>
+                <p>A chatbot designed to assist students with study-related questions.</p>
+            </div>
         </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:mohamedalhawa06@gmail.com">mohamedalhawa06@gmail.com</a></p>
+            <p>Phone: +249929025378</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Mohamed Abdallah. All Rights Reserved.</p>
     </footer>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            AOS.init();
-        });
-    </script>
 </body>
 </html>
